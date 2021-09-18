@@ -1,7 +1,7 @@
 # kmax-truss-gpu
 CCF-BDCI 大规模图数据中kmax-truss问题的求解和算法优化 GPU方案
 
-排名（2/527）
+排名（2/527） 历史分数及PPT等文档在documents里
 
 # 基本算法介绍
 
