@@ -3,6 +3,13 @@ CCF-BDCI 大规模图数据中kmax-truss问题的求解和算法优化 GPU方案
 
 排名（2/527） 历史分数及PPT等文档在documents里
 
+赛题链接：https://www.datafountain.cn/competitions/473
+
+官方数据百度云下载链接：https://pan.baidu.com/s/1NF9C6QfFUwYgha1vn-rj9A 提取码：0yye
+
+更多数据：http://graphchallenge.mit.edu/data-sets https://networkrepository.com/index.php
+
+
 # 基本算法介绍
 
 ​		并行从数据文件读取数据，将图数据以CSR格式存储，使用三边确定一个三角形来统计每条边的支撑度，将支撑度从小到大的边依次扫描出来，并将其剥离，更新对应三角形其他边的支撑度，直至图中没有边。最后扫描最大支撑度及其边的个数，输出结果。
